@@ -1,0 +1,110 @@
+.header-section{
+    width: 100%;
+    height: 60px;
+    background-color: #04091d;
+    display: flex;
+    justify-content: space-between;
+}
+#amazon-logo{
+    height: 31px;
+    width: 100px;
+    margin: 1px;
+    margin-top: 16px;
+    padding: 1px 8px 0px 6px;
+}
+#loc-logo{
+    height: 24px;
+    width: 25px;
+    margin: 1px;
+    margin-top: 16px;
+    padding: 1px 8px 0px 6px;
+    position: relative;
+    top: 5px;
+}
+#loc-text{
+    display: inline-block;
+    color: lightgray;
+    font-size: 12px;
+    font-weight: lighter;
+    margin: -15px;
+}
+#loc-text span{
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+#dropdown-list-search {
+  width: 50px;
+  height: 38px;
+  font-size: 14px;
+  border-radius: 0px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: gray;
+}
+#Search-bar{
+    height: 35px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    width: 750px;
+}
+#Search-bar:focus{
+    outline: none;
+}
+#search-logo-background{
+    background-color: rgba(251, 172, 55, 1);
+    height: 37px; 
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#search-logo-background:hover{
+    background-color: rgba(255,155,0,1);
+}
+#search-logo{
+    width: 24px;
+    height: 24px;
+}
+#US-flag{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 8px;
+}
+#Account{
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+}
+#Account span{
+    font-weight: bold;
+    font-size: 14px;
+}
+#cart-logo{
+    height: 30px;
+    width: 30px;
+    z-index: 2;
+}
+
+
+
+.header-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+#Hamburger-menu{
+    width: 20px;
+    height: 20px;
+}
+.header-bottom-text{
+    color: white;
+    display: flex;
+    font-size: 15px;
+}

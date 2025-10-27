@@ -1,0 +1,33 @@
+.new-customer{
+    height: 190px;
+    width: 100%;
+    background-color: white;
+    
+}
+#sign-in{
+    background-color: rgb(255, 205, 26);
+    border: none;
+    height: 35px;
+    width: 230px;
+    border-radius: 40px;
+    transition: 0.15s;
+}
+#sign-in:hover{
+    background-color: rgb(255, 196, 0);
+}
+.new-customer a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#back-to-top:hover{
+    opacity: 0.9;
+}
+.footer-container{
+    height: 380px;
+    background-color: #08142bda;
+    color: white;
+    display: flex;
+}
+.footer-container p{
+    font-size: 14px;
+}

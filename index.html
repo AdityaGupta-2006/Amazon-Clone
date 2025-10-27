@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="./Styles/header.css">
+    <link rel="stylesheet" href="./Styles/general.css">
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <div style="width: 300px;display: flex;justify-content: space-around;">
+                <div>
+                    <img src="./Images/Header/Amazon-logo.png" alt="amazon-logo" id="amazon-logo">
+                </div>
+                <div style="width: 94px;">
+                    <img src="./Images/Header/location-removebg-preview.png" id="loc-logo">
+                    <p id="loc-text">Deliver to 
+                        <br>
+                        <span>India</span>
+                    </p>
+                </div>
+            </div>
+            
+            <div style="display: flex;align-items: center;">
+                <select id="dropdown-list-search">
+                    <option hidden>All</option>
+                    <option>All Departments</option>
+                    <option>Baby</option>
+                    <option>Computers</option>
+                    <option>Deals</option>
+                    <option>Digital Music</option>
+                </select>
+
+                <input type="text" placeholder="Search Amazon" id="Search-bar">
+
+                <div>
+                    <div id="search-logo-background">
+                        <img src="./Images/Header/search.png" id="search-logo">
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex;justify-content: space-evenly;align-items: center;width: 450px;">
+                <div style="color: white;">
+                    <img src="./Images/Header/US-Flag-removebg-preview.png" id="US-flag">
+                    <div style="display: inline-block;font-size: 14px;font-weight: bold;position: relative;top: -2px;">EN</div>
+                </div>
+                <div>
+                    <a href="./login-page.html" id="Account">Hello, sign in<br><span>Account & Lists</span></a>
+                </div>
+                <div>
+                    <p id="Account">Returns<br><span>& Orders</span></p>
+                </div>
+                <div style="display: flex;align-items: center;">
+                    <img src="./Images/Header/cart.png" id="cart-logo">
+                    <p style="display: inline-block;color: orange;font-weight: bold;font-size: 25px;position: relative;left: -24px;top: -10px;z-index: 1;">0</p>
+                    <p style="display: inline-block;color: white;font-weight: bold;position: relative;bottom: -6px;left: -15px;">Cart</p>
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%;height: 39px;background-color: rgb(23, 31, 48);display: flex;align-items: center;">
+            <div class="header-bottom">
+                <div style="display: flex;align-items: center;">
+                    <img src="./Images/Header/Hamburger-menu.png" id="Hamburger-menu">
+                    <p style="color: white;font-weight: bold;">All</p>
+                </div>
+                <p class="header-bottom-text">Today's Deal</p>
+                <p class="header-bottom-text">Registry</p>
+                <p class="header-bottom-text">Prime Video</p>
+                <p class="header-bottom-text">Gift Cards</p>
+                <p class="header-bottom-text">Customer Service</p>
+                <p class="header-bottom-text">Sell</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="./Images/Hero/619geyiQI5L._SX3000_.jpg" class="hero-images">
+            <img src="./Images/Hero/download.jpeg" class="hero-images">
+            <img src="./Images/Hero/61Yx5-N155L._SX3000_.jpg" class="hero-images">
+            <img src="./Images/Hero/71qcoYgEhzL._SX3000_.jpg" class="hero-images">
+            <div class="blur-layer"></div>
+        </div>
+
+        <div class="amazon-in">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. 
+                <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in" target="_blank">Click here to go to amazon.in</a>
+            </p>
+        </div>
+
+
+        <div class="Content">
+            <div id="box">
+                <h3 class="box-text">Get your game on</h3>
+                <img src="./Images/Hero/Row-1/Gaming-PC.jpg" class="type1-img">
+                <a href="#" class="box-text" style="bottom: -20px;">Shop gaming</a>
+            </div>
+            <div id="box">
+                <h3 class="box-text">Shop for your home essentials</h3>
+                <div style="width: 100%;height: 280px;">
+                    <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+                        <div>
+                            <img src="./Images/Hero/Row-1/box2-1.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Cleaning Tools</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box2-2.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Home Storage</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box2-3.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Home Decor</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box2-4.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Bedding</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="box-text" style="bottom: -45px;">Discover more in Home</a>
+            </div>
+            <div id="box">
+                <h3 class="box-text">Shop Fashion for less</h3>
+                <div style="width: 100%;height: 280px;">
+                    <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+                        <div>
+                            <img src="./Images/Hero/Row-1/box3-1.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Jeans under $50</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box3-2.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Top under $25</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box3-3.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Dress under $30</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box3-4.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Shoes under $50</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="box-text" style="bottom: -45px;">See all deals</a>
+            </div>
+            <div id="box">
+                <h3 class="box-text">New home arrivals under $50</h3>
+                <div style="width: 100%;height: 280px;">
+                    <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+                        <div>
+                            <img src="./Images/Hero/Row-1/box4-1.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 20px;">Kitchen & Dining</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box4-2.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Home Improvement</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box4-3.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Décor</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box4-4.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Bedding & Bath</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="box-text" style="bottom: -45px;">Shope the latest from Home</a>
+            </div>
+            <div id="box">
+                <h3 class="box-text">Refresh your space</h3>
+                <div style="width: 100%;height: 280px;">
+                    <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+                        <div>
+                            <img src="./Images/Hero/Row-1/box5-1.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 20px;">Dining</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box5-2.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Home</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box5-3.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Kitchen</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box5-4.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Health & Beauty</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="box-text" style="bottom: -45px;">See more</a>
+            </div>
+            <div id="box">
+                <h3 class="box-text">Top categories in Kitchen appliances</h3>
+                <div style="width: 100%;height: 280px;">
+                    <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+                        <div>
+                            <img src="./Images/Hero/Row-1/box6-1.jpg" class="type3-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 20px;">Kitchen & Dining</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box6-2.jpg" class="type4-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Home Improvement</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box6-3.jpg" class="type4-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Décor</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box6-4.jpg" class="type4-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Bedding & Bath</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="box-text" style="bottom: -20px;">Explore all products in Kitchen</a>
+            </div>
+            <div id="box">
+                <h3 class="box-text">Fashion trends you like</h3>
+                <div style="width: 100%;height: 280px;">
+                    <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+                        <div>
+                            <img src="./Images/Hero/Row-1/box7-1.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 20px;">Dress</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box7-2.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Knits</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box7-3.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Jackets</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box7-4.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Jewelry</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="box-text" style="bottom: -45px;">Explore more</a>
+            </div>
+            <div id="box">
+                <h3 class="box-text">Easy updates for elevated spaces</h3>
+                <div style="width: 100%;height: 280px;">
+                    <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+                        <div>
+                            <img src="./Images/Hero/Row-1/box8-1.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 20px;">Baskets & hampers</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box8-2.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Hardware</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box8-3.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Accent furniture</p>
+                        </div>
+                        <div>
+                            <img src="./Images/Hero/Row-1/box8-4.jpg" class="type2-img">
+                            <p style="margin: 2px;font-size: 13px;margin-bottom: 30px;">Wallpaper & paint</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="box-text" style="bottom: -45px;">Shop home products</a>
+            </div>
+            <div class="scroll-container">
+                <h2 style="margin-left: 20px;">Top picks for India</h2>
+                <div class="scroll">
+                    <img src="./Images/Hero/Scroll/sec-1/img1.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img2.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img3.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img4.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img5.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img6.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img7.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img8.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img9.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img10.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-1/img11.jpg" class="scroll-img">
+                </div>
+            </div>
+            <div class="scroll-container">
+                <h2 style="margin-left: 20px;">Best Sellers in Sports & Outdoors</h2>
+                <div class="scroll">
+                    <img src="./Images/Hero/Scroll/sec-2/img1.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img2.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img3.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img4.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img5.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img6.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img7.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img8.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img9.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img10.jpg" class="scroll-img">
+                    <img src="./Images/Hero/Scroll/sec-2/img11.jpg" class="scroll-img">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer style="width: 100%;position: relative;top: -280px;height: 505px;">
+        <div class="new-customer">
+            <div style="height: 150px;border: 1px solid lightgray;border-radius: 10px;position: relative;top: 20px;">
+                <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;gap: 0px;">
+                    <h2 style="margin-bottom: 10px;margin-top: 40px;">See personalized recommendations</h2>
+                    <a href="./login-page.html">
+                        <button id="sign-in">
+                            Sign in
+                        </button>
+                    </a>
+                    <p style="font-size: 13px;margin-top: 0px;">New customer? <a href="./login-page.html">Start here.</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top" style="background-color: rgb(64, 76, 101);height: 50px;display: flex;align-items: center;justify-content: center;">
+            <p style="color: white;font-size: 13px;">Back to top</p>
+        </div>
+        <div class="footer-container">
+            <div style="display: flex;flex-direction: column;position: relative;top: 30px;left: 250px;">
+                <h4 style="margin: 7px;">Get to Know Us</h4>
+                <p style="margin: 7px;">Careers</p>
+                <p style="margin: 7px;">Blog</p>
+                <p style="margin: 7px;">About Amazon</p>
+                <p style="margin: 7px;">Investor Relations</p>
+                <p style="margin: 7px;">Amazon Devices</p>
+                <p style="margin: 7px;">Amazon Science</p>
+            </div>
+            <div style="display: flex;flex-direction: column;width: 170px;position: relative;top: 30px;left: 355px;">
+                <h4 style="margin: 7px;">Make Money with Us</h4>
+                <p style="margin: 7px;">Sell products on Amazon</p>
+                <p style="margin: 7px;">Sell on Amazon Business</p>
+                <p style="margin: 7px;">Sell apps on Amazon</p>
+                <p style="margin: 7px;">Become an Affiliate</p>
+                <p style="margin: 7px;">Advertise Your Products</p>
+                <p style="margin: 7px;">Self-Publish with Us</p>
+                <p style="margin: 7px;">Host an Amazon Hub</p>
+                <p style="margin: 7px;">› See More Make Money with Us</p>
+            </div>
+            <div style="display: flex;flex-direction: column;position: relative;top: 30px;left: 470px;">
+                <h4 style="margin: 7px;">Amazon Payment Products</h4>
+                <p style="margin: 7px;">Amazon Business Card</p>
+                <p style="margin: 7px;">Shop with Points</p>
+                <p style="margin: 7px;">Reload Your Balance</p>
+                <p style="margin: 7px;">Amazon Currency Converter</p>
+            </div>
+            <div style="display: flex;flex-direction: column;width: 160px;position: relative;top: 30px;left: 570px;">
+                <h4 style="margin: 7px;">Let Us Help You</h4>
+                <p style="margin: 7px;">Amazon and COVID-19</p>
+                <p style="margin: 7px;">Your Account</p>
+                <p style="margin: 7px;">Your Orders</p>
+                <p style="margin: 7px;">Shipping Rates & Policies</p>
+                <p style="margin: 7px;">Returns & Replacements</p>
+                <p style="margin: 7px;">Manage Your Content and Devices</p>
+                <p style="margin: 7px;">Help</p>
+            </div>
+        </div>
+        <div style="border-top: 1px solid gray; height: 95px;background-color: #08142bda;color: white;display: flex;align-items: center;justify-content: center;">
+            <img src="./Images/Header/Amazon-logo.png" style="height: 30px;">
+        </div>
+        <div style="width: 100%;height: 70px;background-color: #041422;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+            <div style="display: flex;justify-content: center; color: white;font-size: 13px;gap: 20px;">
+                <p style="margin: 0px;">Conditions of Use</p>
+                <p style="margin: 0px;">Privacy Notice</p>
+                <p style="margin: 0px;">Consumer Health Data Privacy Disclosure</p>
+                <p style="margin: 0px;">Your Ads Privacy Choices</p>
+            </div>
+            <div style="display: flex;justify-content: center; color: white;font-size: 13px;">
+                <p style="margin: 0px;">© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
